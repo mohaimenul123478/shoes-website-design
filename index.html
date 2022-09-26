@@ -4,10 +4,90 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<title></title>
 	<link rel="stylesheet" href="">
 </head>
 <body>
-	
+	<div class="all_container">
+		<div class="shoes">
+				<div class="round"></div>
+				<div class="menu">
+				<div class="menu_left">
+					<img src="images/logo.jpg" alt="">
+				</div>
+				<div class="menu_center">
+					<ul>
+						<li> <a href="#">New Shoes</a> </li>
+						<li> <a href="#">Man</a> </li>
+						<li> <a href="#">Woman</a> </li>
+						<li> <a href="#">Page</a> </li> 	
+						<li> <a href="#">Contact</a> </li> 	
+						 	
+					</ul>
+				</div>
+				<div class="menu_right">
+					<ul>
+						<li><a href="#" title=""> <i class="fa-solid fa-magnifying-glass"></i></a> </li>
+						<li><a href="#" title=""> <i class="fa-regular fa-user"></i></a> </li>
+						<li><a href="#" title=""><i class="fa-solid fa-cart-shopping"></i> </a> </li>
+						<li><a href="#" title=""><i class="fa-solid fa-heart"></i> </a> </li>				 	
+					</ul>
+				</div>
+			</div>
+			</section>
+			<section class="content">
+                    <div class="lief_content"> 
+                       <h4>$130</h4>
+                       <h1>Port Men Fashion Casual Sneaker Shoes</h1>
+                       <div class="star">
+                       	<ul>
+                       		<li> <a href=""><i class="fa-regular fa-star"></i></a> </li>
+                       		<li> <a href=""><i class="fa-regular fa-star"></i></a> </li>
+                       		<li> <a href=""><i class="fa-regular fa-star"></i></a> </li>
+                       		<li> <a href=""><i class="fa-regular fa-star"></i></a> </li>
+                       		<li> <a href=""><i class="fa-regular fa-star"></i></a> </li>
+                       	</ul>
+                       </div>
+                       <p>About us We are a big group in China, and we are a legit and verified supplier in Made-in-China. We are family businesses, our scale and competitiveness is increasing. We have over 10 years in producing all kinds of promotional gifts, with experienced workers</p>
+                       <button class="btn" type="">Shaop Now</button>
+                       <div class="social_icon">
+					<ul>
+						<li><a href="#" title=""><i class="fa-brands fa-facebook"></i></a> </li>
+						<li><a href="#" title=""> <i class="fa-brands fa-twitter"></i></a> </li>
+						<li><a href="#" title=""><i class="fa-brands fa-instagram"></i> </a> </li>
+						<li><a href="#" title=""><i class="fa-brands fa-whatsapp"></i></a> </li>				 	
+					</ul>
+				</div>
+                    </div>
+                    <div class="right_content"> 
+                           <div class="img_box">
+                           	 <img  src="images/s3.png" alt=""  class="main_pic">
+                           </div>
+                           <div class="click_box">
+                            	<ul>
+                            		<li> <img src="images/s1.png" onclick="slaider('images/s1.png') ; Ccolor('#366fc3')"> </li>
+                            		<li> <img src="images/s2.png" onclick="slaider('images/s2.png') ; Ccolor('#a02933')"> </li>
+                            		<li> <img src="images/s3.png" onclick="slaider('images/s3.png') ; Ccolor(' #691815')"> </li>
+                            	</ul>
+                            </div>
+                    </div>			
+			</section>
+
+		</div>
+	</div>
+
+	<script src="https://kit.fontawesome.com/5e35d0c07c.js" crossorigin="anonymous"></script>
+
+   <script  type="text/javascript">
+   	function slaider(anything){
+      document.querySelector(' .main_pic') .src = anything ;
+   	}
+   	function Ccolor(color){
+    const round = document.querySelector('.round');
+    round.style.background = color;
+   	}
+   </script>
+
 </body>
 </html>

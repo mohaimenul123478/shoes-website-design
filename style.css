@@ -11,3 +11,198 @@ a{
 ul li{
 	list-style: none;
 }
+
+.all_container{
+	width: 100%;
+	height: 100vh;
+	background-color:#130f40;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.shoes{
+	width: 90%;
+	height: 90vh;
+	background-color:#34495e;
+	padding: 20px;
+	box-sizing: border-box;
+	position: relative;
+	z-index: 2;
+	overflow: hidden;
+}
+
+.round{
+	position: absolute;
+	top: 0;
+	right: -40%;
+	width: 100%;
+	height: 100%;
+	background-color: #691815;
+	z-index: -1;
+	clip-path: circle(500px at center);
+}
+
+.menu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu_left img{
+	width: 50px;
+	height: 50px;
+}
+
+.menu_center ul {
+   display: flex;
+
+}
+
+
+.menu_center ul li a{
+   margin: 0px 10px;
+   font-size: 20px;
+   color: #fff;
+  position: relative;
+}
+
+.menu_center ul li a::after{
+	content: '';
+	position: absolute;
+	bottom: -5px;
+	left: 0px;
+	width:100%;
+	height: 2px ;
+	background-color: #fff;
+	transition: .4s;
+	transform: scale(0);
+	transform-origin: left  ;
+}
+
+.menu_center ul li a:hover:after{
+   transform: scale(1);
+}
+
+.menu_right ul {
+   display: flex;
+
+}
+
+.menu_right ul li a{
+   margin: 0px 10px;
+   font-size: 20px;
+   color: #fff;
+}
+
+.content{
+	display: flex;
+	padding: 20px;
+	height: 82%;
+}
+
+.lief_content{
+	width: 50%;
+	height: 100%;
+	position: relative;
+}
+
+.right_content{
+	width: 50%;
+    position: relative;
+}
+
+.right_content img{
+	width: 60%;
+	height: 60%;
+}
+
+.star  ul {
+	display: flex;
+	margin-top: 10px;
+}
+
+.star  ul li a{
+	margin-right: 10px;
+	font-size: 25px;
+	color: #fff;
+}
+
+.lief_content h4{
+	color: #fff;
+	font-size: 24px;
+	margin-top: 20px;
+}
+
+.lief_content h1{
+	color: #fff;
+	font-size: 36px;
+	width: 80%;
+}
+
+.lief_content p{
+	color: #fff;
+	font-size: 18px;
+	width: 80%;
+	margin-top: 20px;
+}
+
+.btn{
+	margin-top: 20px;
+	padding: 10px 20px;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	font-weight: bold;
+	color:#34495e ;
+}
+
+.btn:hover{
+	cursor: pointer;
+}
+
+.img_box{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.click_box{
+	margin-top: 10px;
+	position: absolute;
+	width: 100%;
+	left: 0;
+    bottom: 0;
+}
+
+.click_box ul{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+
+.click_box img{
+	width: 70px;
+	height: 70px;
+}
+
+.social_icon{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.social_icon ul{
+	display: flex;
+}
+
+.social_icon ul li a{
+	padding: 10px;
+	font-size: 18px;
+	color: #fff;
+}
+
+
+
+
